@@ -13,3 +13,24 @@ class MangaItem(Item):
     name = Field()
     link = Field()
     location = Field()
+
+class InfoItem(Item):
+    name = Field()
+    link = Field()
+    
+    # Information
+    Type = Field()
+    Volumes = Field()
+    Chapters =Field()
+    Status = Field()
+    Published =Field()
+    Genres = Field()
+    Authors = Field()
+    Serialization = Field()
+
+    # Statistics
+    Score =Field()
+    Ranked = Field()
+    Popularity = Field()
+    Members = Field()
+    Favorites = Field()
