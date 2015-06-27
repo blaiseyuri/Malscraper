@@ -34,3 +34,7 @@ class InfoItem(Item):
     Popularity = Field()
     Members = Field()
     Favorites = Field()
+
+class UserItem(Item):
+  username = Field()
+  profile = Field()

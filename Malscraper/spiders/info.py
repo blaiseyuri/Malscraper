@@ -5,7 +5,7 @@ import pandas as pd
 import os
 # get the number of files for the copy_count property
 a = 0
-n = 10
+n = 35837
 
 listrange = '['+str(a)+'-'+str(n)+']'
 name = "Mangalist"+listrange

@@ -1,4 +1,5 @@
 import os
+import re
 # get the number of files for the copy_count property
 a = 0
 n = 1
@@ -12,3 +13,5 @@ print file_count
 
 test = "string"
 print test.replace("!","").replace("i","")
+
+
