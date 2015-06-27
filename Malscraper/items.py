@@ -38,3 +38,9 @@ class InfoItem(Item):
 class UserItem(Item):
   username = Field()
   profile = Field()
+
+class FriendItem(Item):
+  username = Field()
+  profile = Field()
+  friends = Field()
+  favorites = Field()

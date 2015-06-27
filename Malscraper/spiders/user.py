@@ -22,7 +22,6 @@ class UsernameScraper(CrawlSpider):
 
   def goFoward(link):
     shows = re.findall('show=\d*',link)
-    print shows, link
     if len(shows) > 1:
       greater = int(re.sub('show=','',shows[1]))
       less = int(re.sub('show=','',shows[0]))
